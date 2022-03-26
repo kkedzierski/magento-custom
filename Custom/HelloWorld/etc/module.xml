@@ -3,7 +3,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="Custom_HelloWorld" setup_version="1.0.0">
         <sequence>
-            <module name="Custom_HelloWorld" />
+            <module name="Magento_Catalog" />
         </sequence>
     </module>
 </config>
