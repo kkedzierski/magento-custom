@@ -1,6 +1,6 @@
 {
-    "name": "Custom/module-hello-world",
-    "description": "The hello world module for testing",
+    "name": "Custom/module-sample-module",
+    "description": "The sample module for testing",
     "require": {
         "php": "^7.0.0"
     },
@@ -15,7 +15,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Custom\\HelloWorld\\": ""
+            "Custom\\SampleModule\\": ""
         }
     }
 }
