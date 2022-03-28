@@ -1,6 +1,6 @@
 <?php
 
-namespace Custom\HelloWorld\Setup;
+namespace Custom\SampleModule\Setup;
 
 use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
