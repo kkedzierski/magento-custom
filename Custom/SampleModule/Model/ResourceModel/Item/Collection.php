@@ -3,7 +3,7 @@
 namespace Custom\SampleModule\Model\ResourceModel\Item;
 
 use Custom\SampleModule\Model\Item;
-use Custom\SampleModule\Model\Item\ResourceModel as ItemResource;
+use Custom\SampleModule\Model\ResourceModel\Item as ItemResource;
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 class Collection extends AbstractCollection
