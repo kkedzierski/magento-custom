@@ -3,7 +3,6 @@
 namespace Custom\SampleModule\Controller\Index;
 
 use Magento\Framework\App\ActionInterface;
-use Magento\Framework\Controller\Result\Raw;
 use Magento\Framework\Controller\ResultFactory;
 
 class Index implements ActionInterface
@@ -16,11 +15,8 @@ class Index implements ActionInterface
         $this->resultFactory = $resultFactory;
     }
 
-    public function execute(): Raw
+    public function execute()
     {
-        /** @var Raw $result */
-        $result = $this->resultFactory->create(ResultFactory::TYPE_RAW);
-        $result->setContents("Hello World!");
-        return $result;
+        return $this->resultFactory->create(ResultFactory::TYPE_PAGE);
     }
 }
