@@ -7,4 +7,6 @@
             </argument>
         </arguments>
     </type>
+    <preference for="Custom\SampleModule\Api\Data\ItemInterface" type="Custom\SampleModule\Model\Item"/>
+    <preference for="Custom\SampleModule\Api\ItemRepositoryInterface" type="Custom\SampleModule\Model\ItemRepository"/>
 </config>
