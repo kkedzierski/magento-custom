@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <menu>
+        <add id="Custom_SampleModule::custom" title="Custom"
+             module="Custom_SampleModule" resource="Custom_SampleModule::custom"
+             translate="title" sortOrder="900"  action="custom"/>
+    </menu>
+</config>
