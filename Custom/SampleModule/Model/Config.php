@@ -4,7 +4,7 @@ namespace Custom\SampleModule\Model;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 
-class config
+class Config
 {
     const XML_PATH_ENABLED = 'custom/general/enabled';
 //    const XML_PATH_CRON_EXPRESSION = 'custom/general/cron_expression';
