@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Custom_SampleModule::custom" title="Custom"
+                          translate="title" sortOrder="900"/>
+            </resource>
+        </resources>
+    </acl>
+</config>
